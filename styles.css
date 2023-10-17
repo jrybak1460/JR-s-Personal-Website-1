@@ -1,0 +1,50 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkorchid;
+    font-size: larger;
+}
+
+#Name {
+    font-size: x-large;
+    color: azure;
+}
+
+summary {
+    width: 75%;
+}
+
+body {
+    background-color: lightcyan;
+}
+section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: lightskyblue;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+section > summary {
+    text-align: center;
+    background-color: cyan;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+li {
+    padding: 5px;
+}
+
+section > figure {
+    display: inline-block;
+}
